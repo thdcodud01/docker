@@ -9,6 +9,6 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     public String showMain() {
-        return "<h1> 안녕하세요 </h2>";
+        return "<h2> 안녕하세요 </h2>";
     }
 }
