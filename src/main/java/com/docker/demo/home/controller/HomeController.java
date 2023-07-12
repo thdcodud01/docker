@@ -1,4 +1,4 @@
-package com.docker.demo;
+package com.docker.demo.home.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +9,6 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     public String showMain() {
-        return "<h1>Hello,SB</h1>";
+        return "<h1> 안녕하세요 </h2>";
     }
 }

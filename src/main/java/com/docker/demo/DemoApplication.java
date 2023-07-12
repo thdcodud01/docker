@@ -1,4 +1,4 @@
-package com.docker.demo.home.controller;
+package com.docker.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
